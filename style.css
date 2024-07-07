@@ -254,3 +254,60 @@ main {
   border-radius: 5px;
   background: rgb(253, 110, 10);
 }
+footer {
+  height: 780px;
+  background: rgb(255, 248, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-inner-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-inner-section > div {
+  width: 565px;
+}
+.footer-inner-section>div>h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-inner-section>div>p {
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer-inner-section>div>div>img {
+  margin-right: 25px;
+}
+form > input, textarea {
+  box-sizing: border-box;
+  resize: none;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  padding: 18px 350px 18px 30px;
+  width: 100%;
+}
+form>input,
+textarea::placeholder {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+}
+input[type="submit"] {
+  width: 150px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  padding: 20px 40px;
+}
