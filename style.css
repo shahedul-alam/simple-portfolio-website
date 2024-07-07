@@ -148,6 +148,9 @@ main {
   font-weight: 700;
   color: rgb(71, 71, 71);
 }
+.skills-section {
+  margin-bottom: 130px;
+}
 .skills-info {
   width: 990px;
   margin: 0 auto;
@@ -193,4 +196,61 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+.resume-section {
+  margin-bottom: 115px;
+}
+.resume-section > h2 {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 115px;
+  text-align: center;
+}
+.resume-columns-container {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-columns > div {
+  width: 510px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+.resume-columns > h2 {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-columns > div > h2 {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.resume-columns>div>h3 {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-columns>div>p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.skills-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.skills-btn > button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 18px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
 }
