@@ -106,6 +106,7 @@ main {
   height: 550px;
   border-radius: 10px;
   background: rgb(255, 248, 243);
+  margin-bottom: 130px;
 }
 .about-me-info {
   display: flex;
@@ -146,4 +147,50 @@ main {
   font-size: 20px;
   font-weight: 700;
   color: rgb(71, 71, 71);
+}
+.skills-info {
+  width: 990px;
+  margin: 0 auto;
+}
+.skills-info > h2 {
+  color: rgb(24, 24, 24);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.skills-info > p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skills-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-cards > div {
+  width: 267px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.skills-card-inner {
+  padding: 30px;
+}
+.skills-card-inner > img {
+  margin-bottom: 30px;
+}
+.skills-card-inner > h3 {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.skills-card-inner > p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
